@@ -11,7 +11,7 @@ RUN npm install
 COPY /src .
 
 # Build Tailwind output.css
-RUN npm run build:css
+//RUN npm run build:css
 
 # Expose app on port 3000
 EXPOSE 80
